@@ -47,3 +47,31 @@ docker run -p 8000:8000 nombre_imagen
 ```
 
 # IMAGES
+
+# 1. Build Image
+
+![Crear Imagen](images/make_images.png)
+
+# 2. Run Image
+
+![Ejecutar un contenedor](images/run_images.png)
+
+# 3. Upload images
+
+![Cargar imagen a Docker Hub](images/push_images.png)
+
+# 4. Validate imagen is running
+
+![Publicar el puerto 8000](images/validate_run.png)
+
+# 5. Local Access 
+
+![Publicar el puerto 8000](images/access_local.png)
+
+# 6. Docker with username
+
+![Contenedor con mi usuario](images/docker_with_name.png)
+
+# 7. Clean All 
+
+![Borrar contenedor e imagen](images/delete_container_images.png)
