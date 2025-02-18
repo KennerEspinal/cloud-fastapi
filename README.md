@@ -75,3 +75,7 @@ docker run -p 8000:8000 nombre_imagen
 # 7. Clean All 
 
 ![Borrar contenedor e imagen](images/delete_container_images.png)
+
+# 8. Image uploaded on Docker Hub
+
+![Docker hub](images/docker_hub.png)
