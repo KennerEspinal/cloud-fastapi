@@ -50,7 +50,7 @@ docker run -p 8000:8000 nombre_imagen
 
 # 1. Build Image
 
-![Crear Imagen](images/make_images.png)
+![Crear Imagen](images/make_image.png)
 
 # 2. Run Image
 
