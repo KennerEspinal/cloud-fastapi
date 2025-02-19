@@ -25,7 +25,7 @@ python3 -m venv venv
 
 2. Dependecies installation
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 
@@ -44,6 +44,17 @@ docker build -t nombre_imagen .
 2. Run images
 ```
 docker run -p 8000:8000 nombre_imagen 
+```
+
+### Download from Docker Hub
+1. Pull images
+```
+docker pull kennerdev14/kespinal
+```
+
+2. Run imagen
+```
+docker run -p 8000:8000 -d kennerdev14/kespnal
 ```
 
 # IMAGES
