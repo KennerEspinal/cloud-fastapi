@@ -18,18 +18,33 @@ sudo apt install python3.12-env
 
 ### Run in local Mode
 
-1. Activate virtual env
+1. Crear virtual env
 ```
 python3 -m venv venv
 ```
 
-2. Dependecies installation
+2. Activate virtual env
+#### Windows
+```
+venv\Scripts\Activate.ps1
+```
+#### Windows
+```
+venv\Scripts\activate
+```
+
+#### Linux - Mac
+```
+source venv/bin/activate
+```
+
+3. Dependecies installation
 ```
 pip install -r requirements.txt
 ```
 
 
-3. Run server in local mode
+4. Run server in local mode
 ```
 fastapi dev main.py
 ```
